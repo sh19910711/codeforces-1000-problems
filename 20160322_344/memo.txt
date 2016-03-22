@@ -1,0 +1,9 @@
+# A
+Count the number of continuations of same strings.
+
+# B
+* three verticles
+* we know their degrees
+* bruteforce => 10^6^3 = 10^18
+* fix one of them and calculate the others
+  - O(n)?
