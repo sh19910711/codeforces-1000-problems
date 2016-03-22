@@ -1,0 +1,9 @@
+#!/bin/bash
+
+init() {
+  local root=$(dirname $(dirname "$BASH_SOURCE"))
+  local dir=$root/template
+  cp $dir/main.cpp ${1:-.}
+}
+
+init $@
