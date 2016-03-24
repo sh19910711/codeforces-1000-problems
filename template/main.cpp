@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define rep(i, n) for (int i = 0; i < n; ++i)
-
 #ifndef ONLINE_JUDGE
 #define print_int(s) printf("%s = %d\n", #s, s)
 #else
 #define print_int(s)
 #endif
+
+#define rep(i, n) for (int i = 0; i < n; ++i)
 
 typedef long long int_t;
 
