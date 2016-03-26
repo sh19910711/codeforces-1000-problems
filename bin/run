@@ -17,7 +17,12 @@ run() {
       $dir/exe < $dir/input
     else
       $dir/exe < $dir/input > $dir/output && \
-        diff $dir/output $2
+        diff --ignore-all-space $dir/output $2
+        if [[ $? -eq 0 ]]; then
+          echo OK
+        else
+          echo NG
+        fi
     fi
     rm -r $dir
   fi
