@@ -3,7 +3,11 @@
 init() {
   local root=$(dirname $(dirname "$BASH_SOURCE"))
   local dir=$root/template
-  cp $dir/main.cpp ${1:-.}
+  for template in $dir/*.{txt,cpp}; do
+    if [[ ! -f $(basename $template) ]]; then
+      cp $template ${1:-.}
+    fi
+  done
 }
 
 init $@
