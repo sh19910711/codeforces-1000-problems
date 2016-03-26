@@ -2,7 +2,7 @@
 using namespace std;
 
 #ifndef ONLINE_JUDGE
-#define print_int(s) printf("%s = %d\n", #s, s)
+#define print_int(s) printf("# %s = %d\n", #s, s)
 #else
 #define print_int(s)
 #endif
