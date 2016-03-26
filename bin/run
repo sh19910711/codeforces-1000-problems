@@ -28,7 +28,7 @@ run() {
   fi
 }
 
-if [[ $# -ne 1 ]]; then
+if [[ $# -lt 1 ]]; then
   echo "Usage: run <file> [expected-file] [< input-file]"
 else
   run $@
