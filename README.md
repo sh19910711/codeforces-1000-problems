@@ -10,9 +10,9 @@
 
 ## TODO
 
-* [ ] [Codeforces Round #200 (Div. 2)](http://codeforces.com/contest/344)
-* [ ] [Codeforces Round #201 (Div. 2)](http://codeforces.com/contest/347)
-* [ ] [Codeforces Round #202 (Div. 2)](http://codeforces.com/contest/349)
+* [x] [Codeforces Round #200 (Div. 2)](http://codeforces.com/contest/344)
+* [x] [Codeforces Round #201 (Div. 2)](http://codeforces.com/contest/347)
+* [x] [Codeforces Round #202 (Div. 2)](http://codeforces.com/contest/349)
 * [ ] [Codeforces Round #203 (Div. 2)](http://codeforces.com/contest/350)
 * [ ] [Codeforces Round #204 (Div. 2)](http://codeforces.com/contest/352)
 * [ ] [Codeforces Round #205 (Div. 2)](http://codeforces.com/contest/353)
